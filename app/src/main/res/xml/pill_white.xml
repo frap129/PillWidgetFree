@@ -6,6 +6,6 @@
     android:initialLayout="@layout/pill"
     android:resizeMode="horizontal|vertical"
     android:widgetCategory="home_screen|keyguard"
-    android:previewImage="@drawable/full_pill">
+    android:previewImage="@drawable/pill">
 
 </appwidget-provider>

@@ -1,4 +1,4 @@
-package org.frap129.pillwidgetfree;
+package org.frap129.pillwidget;
 
 
 import android.app.PendingIntent;
