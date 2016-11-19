@@ -14,6 +14,27 @@
             <meta-data android:name="android.appwidget.provider"
                 android:resource="@xml/pill_white" />
         </receiver>
+        <receiver android:name=".ConceptWidgetProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/concept_white" />
+        </receiver>
+        <receiver android:name=".PillWidgetHollowProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/pill_white_hollow" />
+        </receiver>
+        <receiver android:name=".ConceptWidgetHollowProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/concept_white_hollow" />
+        </receiver>
     </application>
 
 </manifest>
